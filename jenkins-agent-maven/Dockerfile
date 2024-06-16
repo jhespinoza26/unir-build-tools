@@ -1,6 +1,6 @@
 FROM jenkins/inbound-agent as agent
 
-FROM maven:3.6.3-jdk-11-slim
+FROM maven:3.8.4-jdk-11-slim
 
 RUN apt-get update && \
     apt-get install -y \
